@@ -1,0 +1,30 @@
+doctype html
+html 
+    head
+    body
+        //- single line text
+        p fdfdfdf
+        //- multi line text
+        p. 
+            dsdsdsssddd
+            sdsds
+            sd
+        //- div
+        .myclass
+        //- id
+        #myid
+        p#id asds
+        -const navlist = ["s", "p"]
+        nav
+            ul
+                for value in navlist 
+                    li=value
+                else
+                    li nothing here
+        -var num = 10;
+        nav 
+            ul 
+                -while(num > 0){
+                    li=num
+                    -num--
+                -}

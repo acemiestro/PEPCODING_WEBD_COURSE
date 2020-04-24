@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type = "text/babel">
+        class Counter extends React.Component{
+            constructor(){
+                super()
+                this.state = {
+                    count: 0
+                }
+                console.log("Constructor called!")
+            }
+            increment = () => {
+                this.setState({count: this.state.count + 1});
+                console.log("Increment called")
+            } 
+            decrement = () => {
+                this.setState({count: this.state.count - 1});
+                console.log("Decrement called")
+            } 
+            render(){
+                console.log("Render called")
+                return(
+                    <React.Fragment>
+                        <p>{this.state.count}</p>
+                        <button onClick={this.decrement}> - </button>
+                        <button onClick={this.increment}> + </button>
+                    </React.Fragment>
+                )
+            }
+        }
+        ReactDOM.render(<Counter></Counter>, document.getElementById("root"));
+    </script>
+</body>
+</html>

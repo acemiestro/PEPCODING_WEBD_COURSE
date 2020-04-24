@@ -1,0 +1,67 @@
+/* large Tablets */
+@media only screen and (max-width: 1200px) {
+  body {
+    font-size: 80%;
+    /* background-color: red; */
+  }
+}
+/* tablets */
+@media only screen and (max-width: 950px) {
+  body {
+    font-size: 65%;
+  }
+  section {
+    /* padding: 50%; */
+    padding: 2rem 3rem;
+  }
+  header {
+    /* overflow-y: hidden; */
+    background-repeat: no-repeat;
+    height: 85vh;
+  }
+  .showcase {
+    /* width: 100%; */
+    position: absolute;
+    left: 4rem;
+  }
+}
+
+/* body {
+    background-color: yellow;
+  } */
+
+/* mobile screens */
+@media only screen and (max-width: 650px) {
+  /* body {
+    background-color: yellow;
+  } */
+  .iphone-img {
+    width: 40%;
+    margin: 0 11%;
+  }
+  .container-parent {
+    text-align: center;
+  }
+  .container-parent,
+  .howto-container,
+  .comments-parent {
+    display: block;
+  }
+  .mobile__nav {
+    display: none;
+  }
+  .navigation {
+    display: block;
+    margin: 0 40%;
+  }
+  .nav-line {
+    margin-top: 0;
+    padding-top: 1.1rem;
+  }
+  .mobile-icon {
+    display: block;
+  }
+  .active{
+    display:none;
+  }
+}

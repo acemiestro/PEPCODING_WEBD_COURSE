@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: whitesmoke; 
+	font-family: cursive, sans-serif;
+}
+section{
+  padding: 4rem 5rem;
+}
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.632)), url('../img/food.bmp');
+	height: 100vh;
+	background-size: 100%;
+	color: white; 	
+	background-attachment: fixed;
+}
+article{
+	display: flex;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.navigation{
+	display: flex;
+	justify-content: flex-end;
+}
+.nav-line{
+	margin-right: 1.2rem;
+	list-style: none;
+	font-size: 1.2rem;
+	font-weight: 200;
+	margin-top: 0.95rem;
+}
+.white-anchor{
+	color: white;
+}
+.hovering:hover{
+	padding-bottom: 0.25rem;
+	border-bottom: 0.2rem solid goldenrod;
+}
+.symbol{
+	padding-top: 0.95rem;
+	padding-left: 0.95rem;	
+	float: left;
+	border-radius: 40%;
+	height: 9vh;
+	width: 6vw;
+}
+.main-heading{
+	font-weight: bold;
+	position: relative;
+	top: 9rem; 
+	left: 20rem;
+}
+.btn{
+	margin-top: 1.5rem;
+	margin-right: 1.5rem;
+	transition: transform 15s, color 15s, background-color 15s; 
+}
+.button1{
+	background-color: goldenrod;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	border-radius: 4rem;
+	border-color: transparent;
+	color: white;
+}
+.button2{
+	background-color: transparent;
+	border: 0.25rem solid goldenrod;
+	font-size: 1.2rem;
+	padding: 0.3rem;
+	border-radius: 4rem	;
+	color: goldenrod;
+}
+.button1:hover{
+	transform: scale(1.2);
+}
+.button2:hover{
+	transform: scale(1.2);
+	color: white;
+	background-color: goldenrod;
+}
+.icon {
+  color: #2ecc71;
+  font-size: 300%;
+  padding-left: 5rem;
+  margin-bottom: 0.9rem;
+}
+/* Features Section */
+.container-parent {
+  display: flex;
+}
+.container {
+  margin-right: 1.5rem;
+}
+h2 {
+  font-size: 200%;
+  text-align: center;
+  font-weight: 300;
+}
+.heading-para {
+  font-size: 130%;
+  padding: 0 8rem;
+  margin-bottom: 2rem;
+}
+h2::after {
+  content: "";
+  border-width: 0.1rem;
+  color: black;
+  display: block;
+  border-bottom: solid;
+  margin: 0px 35rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+h3 {
+  font-weight: 300;
+  font-size: 125%;
+  margin-bottom: 1rem;
+}
+.feature-para {
+  line-height: 145%;
+}
+.How-to {
+  background-color: rgb(230, 226, 226);
+}
+.howto-container {
+  display: flex;
+}
+.iphone-img {
+  width: 21%;
+  margin: 0 11%;
+}
+.step-container {
+  display: flex;
+}
+.step-container div {
+  color: black;
+  /* padding: 1rem; */
+  height: 4rem;
+  width: 4rem;
+  border-color: #2ecc71;
+  text-align: center;
+  padding-top: 0.7rem;
+  border-radius: 50%;
+  /* boder-style: solid; */
+  border-style: solid;
+  font-size: 180%;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+.step-container:first-child {
+  margin-top: 3rem;
+}
+.howto-para {
+  margin-top: 1.5rem;
+}

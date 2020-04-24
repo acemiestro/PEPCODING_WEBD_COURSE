@@ -1,0 +1,17 @@
+3 parts
+	working area
+	staging area
+	snapshots
+
+commands
+	git init - makes a git 
+	git status - shows the files
+	git add filename - adds file in staging area
+	git commit -m "added filename to git repo" - local save
+	git log - history
+	git config --list - shows all configurations
+	git config --help
+	git config --global --list (add your email and name)
+	
+	w - save
+	q! - 

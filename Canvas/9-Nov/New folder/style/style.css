@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+}
+.tools{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tool{
+    width: 3rem;
+}
+.active{
+    padding: 0.5rem;
+    background-color: grey;
+    border-radius: 50%;
+}

@@ -1,0 +1,18 @@
+* {
+  color: red;
+}
+#line-id {
+  color: greenyellow;
+}
+.box li {
+  background-color: coral;
+  height: 30rem;
+  width: 30rem;
+  color: blue;
+}
+li {
+  color: green;
+}
+.divison1 {
+  color: grey;
+}

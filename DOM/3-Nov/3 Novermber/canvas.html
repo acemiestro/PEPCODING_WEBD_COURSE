@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+    /* * {
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    } */
+  </style>
+</head>
+
+<body>
+
+  <canvas class="board"></canvas>
+
+  <script>
+    var board = document.querySelector(".board");
+    board.style.height = window.innerHeight;
+    board.style.width = window.innerWidth;
+    var ctx = board.getContext("2d");
+    ctx.fillStyle = "red";
+    ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
+
+
+
+  </script>
+</body>
+
+</html>
